@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<connect id="160服" ip="192.168.16.160" port="10002" />
+	<connect id="斌总服" ip="192.168.15.93" port="10002" />
+	<connect id="GM服" ip="192.168.16.151" port="10002" />
+	<connect id="峰哥服" ip="192.168.15.95" port="10002" />	
+</config>

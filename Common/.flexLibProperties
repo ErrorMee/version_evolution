@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
+  <includeClasses>
+    <classEntry path="Common.config.common.GameStartConfig"/>
+    <classEntry path="Common.config.common.GameStartConfigInfo"/>
+    <classEntry path="Common.config.lang.LanguageConfig"/>
+    <classEntry path="Common.model.GameModel"/>
+    <classEntry path="Common.enum.event.ModuleEventEnum"/>
+    <classEntry path="Common.enum.base.GameEnum"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>

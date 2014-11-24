@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 游戏配置信息 -->
+<root>	
+	<game version="0.0.0"/>
+	<!-- 配置文件列表 -->	
+	<hungry path="config/" zip="false">
+		<file id="language.xml" asyn="0" className="Common.config.lang.LanguageConfig" />
+		<file id="service.xml" asyn="0" className="config.service.ServiceConfig" />
+		<file id="module.xml" asyn="1" className="config.module.ModuleConfig" />
+		<file id="resource.xml" asyn="0" className="config.resource.ResourceConfig" />
+	</hungry>
+</root>

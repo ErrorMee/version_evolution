@@ -1,0 +1,5 @@
+<View width="64" height="64" sceneColor="0xffffff" layers="1,1,0,0,第 1 层">
+  <Clip skin="png.comp.clip_cell" x="0" y="0" layer="1" clipX="4" clipY="8" name="icon1" var="m_Icon"/>
+  <Clip skin="png.comp.clip_cell" x="0" y="0" layer="1" clipX="4" clipY="8" name="icon2" var="m_IconAdd"/>
+  <Clip skin="png.comp.clip_selectline" x="0" y="0" layer="1" clipY="2" name="selectBox"/>
+</View>

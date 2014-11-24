@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 资源配置信息 -->
+<config>	
+	<res id="SpineAtlas" suffix=".atlas" path="spine/atlas/" desc="骨骼切图配置" />
+	<res id="SpineJson" suffix=".json" path="spine/json/" desc="骨骼动画配置" />
+	<res id="SpinePng" suffix=".png" path="spine/png/" desc="骨骼切图" />
+</config>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>	
+	<module id="10000" name="控制模块" dev_name="Control" libs="" glibs=""/>
+	<module id="10001" name="登陆模块" dev_name="Login" libs="" glibs=""/>
+	<module id="20002" name="骨骼模块" dev_name="Spine" libs="" glibs=""/>
+</config>

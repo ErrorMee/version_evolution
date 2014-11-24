@@ -1,0 +1,17 @@
+<langs>
+  <!-- Control -->
+  <item key="log" value="log"/>
+  <item key="DestroyTest" value="DestroyTest"/>
+  <!-- Login -->
+  <item key="用户：" value="用户："/>
+  <item key="登陆" value="登陆"/>
+  <item key="label" value="label"/>
+  <!-- TestPage -->
+  <item key="label1,label2" value="label1,label2"/>
+  <item key="TextInput" value="TextInput"/>
+  <item key="linkButton" value="linkButton"/>
+  <item key="Tab1,Tab2" value="Tab1,Tab2"/>
+  <item key="TextArea\nTextArea\nTextArea\nTextArea\nTextArea\nTextArea\nTextArea" value="TextArea\nTextArea\nTextArea\nTextArea\nTextArea\nTextArea\nTextArea"/>
+  <item key="listItem" value="listItem"/>
+  <item key="treeItem" value="treeItem"/>
+</langs>

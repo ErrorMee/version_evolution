@@ -1,0 +1,4 @@
+<View width="1260" height="860" sceneColor="0xffffff" layers="1,1,0,0,第 1 层">
+  <Image skin="png.comp.bg" x="0" y="0" layer="1" sizeGrid="4,30,4,4" width="1260" height="860"/>
+  <Tab labels="label1,label2" skin="png.comp.tab" x="3" y="0" layer="1" var="m_Tab"/>
+</View>

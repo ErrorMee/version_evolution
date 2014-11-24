@@ -1,0 +1,11 @@
+<View width="200" height="200" sceneColor="0xffffff" layers="1,1,0,0,第 1 层">
+  <Image skin="png.comp.bg" x="0" y="0" layer="1" sizeGrid="4,30,4,6" width="200" height="200" var="m_BG"/>
+  <TextInput skin="png.comp.textinput" x="50" y="46" layer="1" var="m_User" maxChars="10" restrict="0-9 a-z" backgroundColor="0xcc00" align="center" width="100" size="14" color="0x141414"/>
+  <Label text="登陆" styleSkin="png.comp.label" x="86" y="4" layer="1" var="m_Title"/>
+  <List layers="1,1,0,0,第 1 层" layer="1" x="52.5" y="79" repeatX="1" repeatY="4" spaceX="20" spaceY="2" var="m_ServerList">
+    <Box layers="1,1,0,0,第 1 层" layer="1" name="render" y="1">
+      <Button label="label" skin="png.comp.button" layer="1" name="m_Button"/>
+    </Box>
+    <VScrollBar skin="png.comp.vscroll" x="77" layer="1" height="100" name="scrollBar"/>
+  </List>
+</View>

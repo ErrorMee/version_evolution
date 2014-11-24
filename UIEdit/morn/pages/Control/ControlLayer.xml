@@ -1,0 +1,10 @@
+<View width="1151" height="100" sceneColor="0xffffff" layers="1,1,0,0,第 1 层">
+  <TextArea skin="png.comp.textarea" x="0" y="0" layer="1" width="1056" height="100" var="m_LogText" text="client log" color="0xffff00" size="12" background="true" backgroundColor="0x59383838" alpha="0.5"/>
+  <Button label="save" skin="png.comp.button" x="1016" y="0" layer="1" var="m_SaveLog" width="40"/>
+  <List layers="1,1,0,0,第 1 层" layer="1" x="1056" y="0" repeatX="1" repeatY="4" spaceX="20" spaceY="2" var="m_FunList">
+    <Box layers="1,1,0,0,第 1 层" layer="1" name="render" y="1">
+      <Button label="label" skin="png.comp.button" layer="1" name="m_Button"/>
+    </Box>
+    <VScrollBar skin="png.comp.vscroll" x="77" layer="1" height="100" name="scrollBar"/>
+  </List>
+</View>

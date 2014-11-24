@@ -1,0 +1,7 @@
+<View width="64" height="64" sceneColor="0xffffff" layers="1,1,0,0,第 1 层">
+  <Clip skin="png.comp.clip_cell" x="0" y="0" layer="1" clipX="4" clipY="8" var="m_BG"/>
+  <Clip skin="png.comp.clip_cell" x="0" y="0" layer="1" clipX="4" clipY="8" name="icon2" var="m_IconAdd"/>
+  <Label text="(0-0)" styleSkin="png.comp.label" x="0" y="0" layer="1" var="m_Value" align="left" width="64" height="24" color="0xff00ff" size="16" background="false"/>
+  <Label text="(0,0)" styleSkin="png.comp.label" x="0" y="46" layer="1" var="m_Pos" align="right" width="64" height="18" color="0xff00ff"/>
+  <Clip skin="png.comp.clip_selectline" x="0" y="0" layer="1" clipY="2" name="selectBox"/>
+</View>

@@ -1,0 +1,15 @@
+<project version="1">
+  <asynRes>img,temp,sound</asynRes>
+  <unDealRes>embed</unDealRes>
+  <resTypes>png,jpg</resTypes>
+  <resExportPath>../GameMain/asset</resExportPath>
+  <resCanCompress>0</resCanCompress>
+  <resPublishQuality>80</resPublishQuality>
+  <codeExportPath>../Common/src/Common/morncode</codeExportPath>
+  <codeImports>import morn.core.components.*;</codeImports>
+  <uiType>1</uiType>
+  <uiExportPath>../GameMain/asset/ui.swf</uiExportPath>
+  <boxTypes>Box,Container,List,Tab,RadioGroup,ViewStack,Panel,HBox,VBox</boxTypes>
+  <pageTypes>View,Dialog</pageTypes>
+  <shareResPath/>
+</project>

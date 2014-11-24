@@ -1,0 +1,4 @@
+<View width="800" height="100" sceneColor="0xffffff" layers="1,1,0,0,第 1 层">
+  <CheckBox skin="png.comp.checkbox" x="0" y="0" layer="1" var="m_Check" labelColors="ff4040,ff4040,ff4040"/>
+  <UIView source="Control/ControlLayer.xml" x="100" y="0" layer="1" var="m_ControlLayer"/>
+</View>
