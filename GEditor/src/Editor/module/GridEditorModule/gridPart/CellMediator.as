@@ -8,6 +8,7 @@ package Editor.module.GridEditorModule.gridPart
 	import Editor.module.GridEditorModule.model.GridModel;
 	
 	import flash.display.BlendMode;
+	import flash.display.Shape;
 	import flash.events.MouseEvent;
 	
 	import game.ui.GridEditor.CellUI;
@@ -93,6 +94,28 @@ package Editor.module.GridEditorModule.gridPart
 		
 		private function updateList():void
 		{
+			if(view.m_Mask == null)
+			{
+				view.m_Mask = new Shape;
+				
+				view.m_Mask.graphics.beginFill(0xa8a8a8,0.6);
+				
+				view.m_Mask.graphics.drawRect(0,0,74 * i_GridModel.m_XNum - 10,74 - 10);
+				
+				view.addChild(view.m_Mask);
+			}
+			
+			if(view.m_Bg == null)
+			{
+				view.m_Bg = new Shape;
+				
+				view.m_Bg.graphics.lineStyle(2,0x555555);
+				view.m_Bg.graphics.beginFill(0x27408B,0.3);
+				view.m_Bg.graphics.drawRect(-10,-10,74 * i_GridModel.m_XNum + 10,74 * i_GridModel.m_YNum + 10);
+				
+				view.addChildAt(view.m_Bg,0);
+			}
+			
 			view.m_List.repeatX = i_GridModel.m_XNum;
 			view.m_List.repeatY = i_GridModel.m_YNum;
 			

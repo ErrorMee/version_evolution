@@ -4,8 +4,8 @@ package game.ui {
 	public class NavigationUI extends View {
 		public var m_Tab:Tab;
 		protected static var uiXML:XML =
-			<View width="1260" height="860">
-			  <Image skin="png.comp.bg" x="0" y="0" sizeGrid="4,30,4,4" width="1260" height="860"/>
+			<View width="1600" height="900">
+			  <Image skin="png.comp.bg" x="0" y="0" sizeGrid="4,30,4,4" width="1600" height="900"/>
 			  <Tab labels="label1,label2" skin="png.comp.tab" x="3" y="0" var="m_Tab"/>
 			</View>;
 		public function NavigationUI(){}

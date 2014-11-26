@@ -16,7 +16,7 @@ package game.ui.GridEditor {
 			  <TextInput text="32" skin="png.comp.textinput" x="115" y="90" restrict="0-9" width="40" var="m_XNum" maxChars="2"/>
 			  <Label text="高度" x="163" y="90"/>
 			  <TextInput text="32" skin="png.comp.textinput" x="193" y="90" restrict="0-9" width="40" var="m_YNum" maxChars="2"/>
-			  <Label text="创建" x="136" y="3"/>
+			  <Label text="Create" x="4" y="3"/>
 			  <Button label="确定" skin="png.comp.button" x="112.5" y="247" var="m_Sure"/>
 			  <Label text="ID" x="118" y="50"/>
 			  <TextInput text="10000" skin="png.comp.textinput" x="138" y="50" restrict="0-9" width="50" var="m_ID" maxChars="5"/>

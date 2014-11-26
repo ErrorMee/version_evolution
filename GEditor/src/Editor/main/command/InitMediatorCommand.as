@@ -8,6 +8,8 @@ package Editor.main.command
 	import Editor.module.GridEditorModule.gridPart.CellView;
 	import Editor.module.GridEditorModule.gridPart.WallMediator;
 	import Editor.module.GridEditorModule.gridPart.WallView;
+	import Editor.module.GridEditorModule.playPart.PlayMediator;
+	import Editor.module.GridEditorModule.playPart.PlayView;
 	import Editor.module.GridEditorModule.setPart.SetMediator;
 	import Editor.module.GridEditorModule.setPart.SetView;
 	
@@ -32,6 +34,7 @@ package Editor.main.command
 			mediatorMap.mapView(CellView,CellMediator);
 			mediatorMap.mapView(WallView,WallMediator);
 			mediatorMap.mapView(SetView,SetMediator);
+			mediatorMap.mapView(PlayView,PlayMediator);
 		}
 	}
 }

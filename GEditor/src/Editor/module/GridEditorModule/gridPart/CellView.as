@@ -1,5 +1,7 @@
 package Editor.module.GridEditorModule.gridPart
 {
+	import flash.display.Shape;
+	
 	import game.ui.GridEditor.CellListUI;
 	
 	/**
@@ -9,6 +11,10 @@ package Editor.module.GridEditorModule.gridPart
 	 */
 	public class CellView extends CellListUI
 	{
+		public var m_Mask:Shape;
+		
+		public var m_Bg:Shape;
+		
 		public function CellView()
 		{
 			super();

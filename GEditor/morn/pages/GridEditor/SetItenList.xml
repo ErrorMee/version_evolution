@@ -1,5 +1,5 @@
 <View width="64" height="64" sceneColor="0xffffff" layers="1,1,0,0,第 1 层">
-  <List layers="1,1,0,0,第 1 层" layer="1" repeatX="7" repeatY="8" var="m_List">
+  <List layers="1,1,0,0,第 1 层" layer="1" repeatX="7" repeatY="12" var="m_List">
     <UIView source="GridEditor/SetItem.xml" x="0" y="0" layer="1" name="render"/>
   </List>
 </View>

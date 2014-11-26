@@ -6,7 +6,7 @@ package game.ui.GridEditor {
 		public var m_List:List;
 		protected static var uiXML:XML =
 			<View width="64" height="64">
-			  <List repeatX="7" repeatY="8" var="m_List">
+			  <List repeatX="7" repeatY="12" var="m_List">
 			    <SetItem x="0" y="0" name="render" runtime="game.ui.GridEditor.SetItemUI"/>
 			  </List>
 			</View>;

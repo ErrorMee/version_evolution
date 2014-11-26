@@ -17,7 +17,7 @@ package
 	 * 修改者:
 	 * 说明:
 	 */
-	[SWF(width="1260",height="860",frameRate="60",backgroundColor="0x24211C")]
+	[SWF(width="1600",height="900",frameRate="60",backgroundColor="0x24211C")]
 	public class GEditor extends Sprite
 	{
 		private var m_MainContext:MainContext;

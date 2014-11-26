@@ -1,0 +1,4 @@
+<View width="420" height="840" sceneColor="0xffffff" layers="1,1,0,0,第 1 层">
+  <Image skin="png.comp.bg" x="0" y="0" layer="1" sizeGrid="4,30,4,4" width="420" height="840"/>
+  <Label text="Play" styleSkin="png.comp.label" x="4" y="5" layer="1"/>
+</View>

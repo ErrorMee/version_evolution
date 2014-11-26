@@ -87,6 +87,10 @@ package Editor.module.GridEditorModule
 			{
 				view.addChild(view.m_SetView);
 			}
+			if(!view.contains(view.m_PlayView))
+			{
+				view.addChild(view.m_PlayView);
+			}
 			changeEditType();
 		}
 		
